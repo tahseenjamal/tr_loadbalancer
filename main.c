@@ -9,6 +9,7 @@
 #include <string.h>
 #include <sys/epoll.h>
 #include <unistd.h>
+#include <sys/socket.h>
 
 static int g_epfd = -1;
 

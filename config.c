@@ -26,9 +26,9 @@ void config_init_defaults(void) {
    */
   g_cfg.tr_count = 2;
   g_cfg.trs[0].tr_id = 1;
-  snprintf(g_cfg.trs[0].ip, sizeof(g_cfg.trs[0].ip), "127.0.0.11");
+  snprintf(g_cfg.trs[0].ip, sizeof(g_cfg.trs[0].ip), "127.0.0.1");
   g_cfg.trs[1].tr_id = 2;
-  snprintf(g_cfg.trs[1].ip, sizeof(g_cfg.trs[1].ip), "127.0.0.12");
+  snprintf(g_cfg.trs[1].ip, sizeof(g_cfg.trs[1].ip), "127.0.0.1");
 
   /*
    * Example upstream peer IP mapping.
@@ -36,7 +36,7 @@ void config_init_defaults(void) {
    */
   g_cfg.upstream_count = 1;
   g_cfg.upstreams[0].upstream_id = 1;
-  snprintf(g_cfg.upstreams[0].ip, sizeof(g_cfg.upstreams[0].ip), "127.0.0.21");
+  snprintf(g_cfg.upstreams[0].ip, sizeof(g_cfg.upstreams[0].ip), "127.0.0.1");
 }
 
 int config_tr_id_by_ip(const char *ip) {

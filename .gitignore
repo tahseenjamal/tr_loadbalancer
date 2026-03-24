@@ -1,0 +1,50 @@
+# Build artifacts
+
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+
+fe_router
+*.out
+
+
+gmon.out
+
+# Editor / OS files
+
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+
+*.log
+
+# Coverage
+
+*.gcda
+*.gcno
+*.gcov
+
+# Temporary files
+
+tmp/
+build/
+
+# CMake (if ever used)
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# VSCode / IDE
+
+.vscode/
+.idea/
+
