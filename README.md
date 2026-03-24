@@ -648,18 +648,3 @@ Use local cache first, Redis second.
 Treat FE as a specialized M3UA frontend, not a generic STP.
 ```
 
-```
-
-If you want, next I can give you **README v2** that is even more practical, with:
-
-- **exact folder structure**
-- **exact Redis key format**
-- **OTID/DTID lifecycle rules**
-- **sample `config.h`**
-- **production deployment example**
-- **metrics list**
-- **failure scenarios**
-- **how to benchmark TPS**
-
-That would be the **best version for actual developers**.
-```
